@@ -87,6 +87,7 @@ public class RequestHeaderServlet extends HttpServlet {
         System.out.println("request.getContentType() = " + request.getContentType());
         System.out.println("request.getContentLength() = " + request.getContentLength());
         System.out.println("request.getCharacterEncoding() = " + request.getCharacterEncoding());
+
         System.out.println("--- Header 편의 조회 end ---");
         System.out.println();
     }
@@ -105,6 +106,7 @@ public class RequestHeaderServlet extends HttpServlet {
         System.out.println("request.getLocalName() = " + request.getLocalName()); //
         System.out.println("request.getLocalAddr() = " + request.getLocalAddr()); //
         System.out.println("request.getLocalPort() = " + request.getLocalPort()); //
+
         System.out.println("--- 기타 조회 end ---");
         System.out.println();
     }
