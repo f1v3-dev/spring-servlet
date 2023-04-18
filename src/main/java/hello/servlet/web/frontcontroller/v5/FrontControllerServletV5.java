@@ -45,7 +45,7 @@ public class FrontControllerServletV5 extends HttpServlet {
     @Override
     protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-        // Handler 호출
+        // Handler 호출 (MemberFormControllerV3 반환)
         Object handler = getHandler(request);
         if (handler == null){
             response.setStatus(HttpServletResponse.SC_NOT_FOUND);
@@ -74,6 +74,7 @@ public class FrontControllerServletV5 extends HttpServlet {
     }
 
     private MyHandlerAdapter getHandlerAdapter(Object handler) {
+        // MemberFormControllerV3
         for (MyHandlerAdapter adapter : handlerAdapters) {
             if (adapter.supports(handler)) {
                 return adapter;
