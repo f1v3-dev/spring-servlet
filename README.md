@@ -1,5 +1,6 @@
 # spring-mvc
 
+## Front-Controller
 >만든 프레임워크 vs 스프링 MVC 비교
 >- FrontController -> DispatcherServlet
 >- handlerMappingMap -> HandlerMapping
@@ -54,4 +55,5 @@ protected void render(ModelAndView mv, HttpServletRequest request, HttpServletRe
 
 ```
 
+### MVC 패턴
 ![image](https://user-images.githubusercontent.com/84575041/233353770-27780225-c5ff-4356-94b2-abe127e5b9c5.png)
