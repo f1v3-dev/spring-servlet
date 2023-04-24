@@ -1,4 +1,4 @@
-# spring-mvc
+# spring-servlet-mvc
 
 ## Front-Controller
 >만든 프레임워크 vs 스프링 MVC 비교
